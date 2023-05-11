@@ -23,7 +23,7 @@ struct Post {
         var sectionInPost = [Post]()
         //Добавляю в массив структуру Post
         sectionInPost.append(Post(authorPost: "Avzalov Marat",
-                                  descriptionPost: "This is y Post",
+                                  descriptionPost: "This is my Post",
                                   imagePost: UIImage(named: "Photo")!,
                                   likesPost: 597,
                                   viewsPost: 956))
