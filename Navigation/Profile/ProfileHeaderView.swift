@@ -58,7 +58,7 @@ class ProfileHeaderView: UIView {
         return textFieldCreate
     }()
     //Создаю setStatusButton синяя кнопка
-    let setStatusButton: UIButton = {
+    private lazy var setStatusButton: UIButton = {
         let buttonBlue = UIButton()
         buttonBlue.backgroundColor = .blue
         buttonBlue.setTitle("Show status", for: .normal)

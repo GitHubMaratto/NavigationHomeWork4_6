@@ -129,18 +129,18 @@ final class CustomTableViewCell: UITableViewCell {
             imagePostView.heightAnchor.constraint(equalToConstant: 250),
             
             //Констрейнты для descriptionTextLabel
-            descriptionTextLabel.topAnchor.constraint(equalTo: imagePostView.bottomAnchor),
+            descriptionTextLabel.topAnchor.constraint(equalTo: imagePostView.bottomAnchor, constant: 16),
             descriptionTextLabel.leadingAnchor.constraint(equalTo: contentWhiteView.leadingAnchor, constant: 16),
             descriptionTextLabel.trailingAnchor.constraint(equalTo: contentWhiteView.trailingAnchor),
             
             //Констрейнты для likesView
-            likesView.topAnchor.constraint(equalTo: descriptionTextLabel.bottomAnchor),
+            likesView.topAnchor.constraint(equalTo: descriptionTextLabel.bottomAnchor, constant: 16),
             likesView.leadingAnchor.constraint(equalTo: contentWhiteView.leadingAnchor, constant: 16),
             likesView.widthAnchor.constraint(equalToConstant: 150),
             likesView.bottomAnchor.constraint(equalTo: contentWhiteView.bottomAnchor),
             
             //Констрейнты для viewViews
-            viewViews.topAnchor.constraint(equalTo: descriptionTextLabel.bottomAnchor),
+            viewViews.topAnchor.constraint(equalTo: descriptionTextLabel.bottomAnchor, constant: 16),
             
             viewViews.trailingAnchor.constraint(equalTo: contentWhiteView.trailingAnchor, constant: -16),
             viewViews.bottomAnchor.constraint(equalTo: contentWhiteView.bottomAnchor),
